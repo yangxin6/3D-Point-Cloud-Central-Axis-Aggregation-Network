@@ -67,6 +67,8 @@ python tools/train.py --config-file configs/corn3d_group/insseg-pointgroup-v2m1-
 ```bash
 python tools/test.py --config-file configs/corn3d_group/insseg-pointgroup-v2m1-0-pt3-base.py  --options save_path="{weight_path}"  weight="{weight_path}/model_best.pth"
 ```
+We provide our best model weights here: [model_best]()
+
 
 ## Reference
 - [Pointcept](https://github.com/Pointcept/Pointcept)
