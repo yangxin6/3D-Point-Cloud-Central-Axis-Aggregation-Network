@@ -56,34 +56,39 @@ python project/multi_gen_group_data_no_land.py
 
 
 ## Ground Truth Dataset
-我们在上面4种传感器获得的共17个数据上进行了实验，数据目录如下
-```
-lidar__a.txt
-lidar__c.txt
-lidar__b.txt
-lidar__d.txt
-other__Maize-04_gt.txt
-other__grou_maize_gd.txt
-slam__slam_all.txt
-rgb__0707_Tian_30_gt.txt
-rgb__0707_502_30_gt.txt
-rgb__0709_XY_20_gt.txt
-rgb__0709_XY_30_gt.txt
-rgb__0721_Tian_20_gt.txt
-rgb__0729_Tian_30_gt.txt
-uav__WasecaV5_clean.txt
-uav__StPaulV6_clean.txt
-uav__StPaulV3_clean.txt
-uav__DjiV4_clean_gt.txt
-```
-测试数据的真值以及我们模型的预测结果我们公布在下面地址中：
+We conducted tests on a total of 17 datasets obtained from four types of sensors. The data catalog and test results are as follows:
+
+| Data ID |        Data Name         |   AP   |
+| :-----: | :----------------------: | :----: |
+|   A1    |       lidar__a.txt       | 0.6903 |
+|   A2    |       lidar__c.txt       | 0.8169 |
+|   A3    |       lidar__b.txt       | 0.8277 |
+|   A4    |       lidar__d.txt       | 0.8797 |
+|   A5    |  other__Maize-04_gt.txt  | 0.9659 |
+|   A6    | other__grou_maize_gd.txt |   1    |
+|   B1    |    slam__slam_all.txt    | 0.9868 |
+|   C1    | rgb__0707_Tian_30_gt.txt |   1    |
+|   C2    | rgb__0707_502_30_gt.txt  | 0.9738 |
+|   C3    |  rgb__0709_XY_20_gt.txt  | 0.9689 |
+|   C4    |  rgb__0709_XY_30_gt.txt  |   1    |
+|   C5    | rgb__0721_Tian_20_gt.txt |   1    |
+|   C6    | rgb__0729_Tian_30_gt.txt |   1    |
+|   D1    | uav__WasecaV5_clean.txt  | 0.9354 |
+|   D2    | uav__StPaulV6_clean.txt  | 0.9711 |
+|   D3    | uav__StPaulV3_clean.txt  | 0.5568 |
+|   D4    | uav__DjiV4_clean_gt.txt  | 0.6498 |
+| Average |            /             | 0.8955 |
+
+
+
+The ground truth of the test data and our model’s prediction results are published at the following address: 
 datasets [link](https://www.kaggle.com/datasets/yangxin6/test-point-cloud-datasets-of-mazie-population)
 
 
-此外，lidar、slam和rgb类型的数据是我们采集的数据，其他数据的来源如下：
-- [other__grou_maize_gd]()
-- [other__Maize-04_gt]()
-- [uav__*]()
+Additionally, the data for lidar, slam, and rgb types were collected by us, and the sources of the other data are as follows:
+- [other__grou_maize_gd](https://linkinghub.elsevier.com/retrieve/pii/S2214514121002191)
+- [other__Maize-04_gt](https://www.mdpi.com/2077-0472/12/9/1450)
+- [uav__*](http://arxiv.org/abs/2107.10950)
 
 ## Network
 
