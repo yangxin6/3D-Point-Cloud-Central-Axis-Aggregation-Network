@@ -90,7 +90,7 @@ The ground truth of the test data and our model’s prediction results are publi
 datasets [link](https://www.kaggle.com/datasets/yangxin6/test-point-cloud-datasets-of-mazie-population)
 
 
-Additionally, the data for lidar, slam, and rgb types were collected by us, and the sources of the other data are as follows:
+Additionally, we express our gratitude to several scholars who shared their data with us. We processed and annotated these data for testing purposes. The original links to these data include:
 - [other__grou_maize_gd](https://linkinghub.elsevier.com/retrieve/pii/S2214514121002191)
 - [other__Maize-04_gt](https://www.mdpi.com/2077-0472/12/9/1450)
 - [uav__*](http://arxiv.org/abs/2107.10950)
