@@ -1,5 +1,10 @@
 # 3D Point Cloud Central Axis Aggregation Network
 
+## Network
+
+![3D-Point-Cloud-Central-Axis-Aggregation-Network.jpg](imgs%2F3D-Point-Cloud-Central-Axis-Aggregation-Network.jpg)
+
+
 ## Environment
 
 - Ubuntu 22.04
@@ -90,9 +95,6 @@ Additionally, the data for lidar, slam, and rgb types were collected by us, and 
 - [other__Maize-04_gt](https://www.mdpi.com/2077-0472/12/9/1450)
 - [uav__*](http://arxiv.org/abs/2107.10950)
 
-## Network
-
-![3D-Point-Cloud-Central-Axis-Aggregation-Network.jpg](imgs%2F3D-Point-Cloud-Central-Axis-Aggregation-Network.jpg)
 
 ## Train
 
