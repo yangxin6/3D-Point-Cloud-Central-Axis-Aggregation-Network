@@ -64,8 +64,38 @@ python project/multi_gen_group_data_no_land.py
 We conducted tests on a total of 17 datasets obtained from four types of sensors. The data catalog and test results are as follows:
 
 
-The ground truth of the test datasets  are published at the following address: 
-datasets [link](https://www.kaggle.com/datasets/yangxin6/maize-populationn)
+| Data ID      | Data Name                | AP     |
+| ------------ | ------------------------ | ------ |
+| $A^1$        | lidar__a.txt             | 0.6903 |
+| $A^2$        | lidar__b.txt             | 0.8169 |
+| $A^3$        | lidar__c.txt             | 0.8277 |
+| $A^4$        | lidar__d.txt             | 0.8797 |
+| $B^1$        | other__Maize-04_gt.txt   | 0.9943 |
+| $B^2$        | other__grou_maize_gd.txt | 0.9756 |
+| $C^1$        | slam__slam_all.txt       | 0.9602 |
+| $D^1$        | rgb__0707_Tian_30_gt.txt | 1.0000 |
+| $D^2$        | rgb__0707_502_30_gt.txt  | 0.9244 |
+| $D^3$        | rgb__0709_XY_20_gt.txt   | 0.8856 |
+| $D^4$        | rgb__0709_XY_30_gt.txt   | 0.9506 |
+| $D^5$        | rgb__0721_Tian_20_gt.txt | 1.0000 |
+| $D^6$        | rgb__0729_Tian_30_gt.txt | 0.8810 |
+| $E^1$        | DjiV4_clean_gt.txt       | 0.9354 |
+| $E^2$        | StPaulV3_clean.txt       | 0.9711 |
+| $E^3$        | StPaulV6_clean.txt       | 0.5568 |
+| $E^4$        | WasecaV5_clean.txt       | 0.6498 |
+|              | Average                  | 0.8764 |
+| $A^1_{test}$ | 2-lidar__a.txt           | 0.7523 |
+| $A^2_{test}$ | 2-lidar__b.txt           | 0.7609 |
+| $A^3_{test}$ | 2-lidar__c.txt           | 0.8186 |
+| $A^4_{test}$ | 2-lidar__d.txt           | 0.8998 |
+
+
+
+
+
+The ground truth of the test data and our model’s prediction results are published at the following address: 
+datasets [link](https://www.kaggle.com/datasets/yangxin6/test-point-cloud-datasets-of-mazie-population)
+
 
 
 Additionally, we express our gratitude to several scholars who shared their data with us. We processed and annotated these data for testing purposes. The original links to these data include:
