@@ -5,6 +5,8 @@
 ![3D-Point-Cloud-Central-Axis-Aggregation-Network.jpg](imgs%2F3D-Point-Cloud-Central-Axis-Aggregation-Network.jpg)
 
 
+Refer to our latest model, [3DPACANet](https://github.com/yangxin6/3D-PACA-Network.git)
+
 ## Environment
 
 - Ubuntu 22.04
